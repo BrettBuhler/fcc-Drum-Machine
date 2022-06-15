@@ -1,0 +1,45 @@
+* {
+    font-size: 5vh;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(38, 40, 40), rgb(30, 29, 29))
+}
+
+#flexBox {
+    position: absolute;
+    display: flex;
+    width: 60vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    left: 22.5vw;
+    top: 15vh;
+}
+
+.drum-pad {
+    width: 100vw;
+    margin: 10px 10px;
+    max-height: 25vh;
+    max-width: 15vw;
+}
+
+#soundDisplay {
+    position: relative;
+    top: 3vh;
+    left: calc(22.5vw + 10px);
+    width: calc(45vw + 40px);
+    height: 10vh;
+    background: linear-gradient(rgb(12, 4, 255),rgb(37, 1, 242));
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mySound {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
